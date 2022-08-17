@@ -22,6 +22,6 @@ document.getElementById("withdraw-btn").addEventListener("click", function () {
   const previousbalancetotal = parseFloat(previousbalancetotalString);
 
   //   step-7
-  const totallwithdrawbalance = previousbalancetotal - previoustotalwithdraw;
+  const totallwithdrawbalance = previousbalancetotal - newwithdraw;
   balancetotal.innerText = totallwithdrawbalance;
 });
